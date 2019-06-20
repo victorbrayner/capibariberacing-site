@@ -1,7 +1,7 @@
 # Site do Capibarib-E Racing
 
 ## 1. Instalação de ferramentas
-Vamos precisar de três coisas essenciais para este treinamento: **Python**, **Virtualenv** e **Django**.
+Vamos precisar de três coisas essenciais: **Python**, **Virtualenv** e **Django**.
 
 ### 1.1. Instalando Python na sua máquina
 
