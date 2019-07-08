@@ -8,14 +8,19 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>Capibarib-E Racing</title>
+    <title>Capibarib-E Racing | FSAE Brasil</title>
 </head>
 <body>
+
+     <!-- SEÇÃO 0 - NAVBAR -->
+
     <nav id="navbar">
         <div id="navWeb">
+
             <div class="navLogo">
                 <img src="{% static 'images/logo-capiba-branca.png' %}" alt="logo-capiba">
             </div>
+
             <div class="divMenu">
                 <p class="section">
                     <a href="#fsae">FSAE</a>
@@ -33,12 +38,40 @@
                     <a href="#contato">CONTATO</a>
                 </p>
             </div>
+
             <div class="navSocial">
                 <a href="https://www.linkedin.com/company/capibarib-e-racing/"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://www.instagram.com/capibarib.eracing/"><i class="fab fa-instagram"></i></a>
             </div>
+
         </div>
+
         <div id="navMobile"></div>
+
     </nav>
+
+    <!-- SEÇÃO 1 - HOME -->
+
+    <div id="home">
+
+        <div class="homeLogo">
+            <img src="{% static 'images/logo-capiba-completo.png' %}" alt="logo-home">
+        </div>
+
+        <p class="boxHome">
+            Uma equipe sem limites de velocidade, motivada a construir o
+            <span>primeiro carro de corrida de Pernambuco</span>
+        </p>
+    </div>
+
+    <!-- SEÇÃO 2 - FSAE -->
+
+    <div id="fsae">
+        <!--
+        <div class="fsaeLogo">
+            <img src="{% static 'images/logo-fsae.jpeg' %}" alt="logo-fsae">
+        </div>
+        -->
+    </div>
 </body>
 </html>

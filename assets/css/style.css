@@ -15,6 +15,8 @@ body{
     align-items: flex-start;
 } 
 
+/* SEÇÃO 0 - NAVBAR */
+
 #navbar{
     width: 100%;
     height: 10vh;
@@ -35,7 +37,7 @@ body{
 }
 
 .navLogo{
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .navLogo img{
@@ -70,4 +72,32 @@ body{
     color: var(--branco);
     font-size: 0.4rem;
     margin: 10px;
+}
+
+/* SEÇÃO 1 - HOME */
+
+#home{
+    width: 100%;
+    height: 100%;
+}
+.homeLogo img{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homeLogo{
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+.boxHome{
+    border-style: dashed;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    top: 250px;
+}
+.boxHome span{
+    font-weight: bold;
 }
