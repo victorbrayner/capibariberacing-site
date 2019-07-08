@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Capibarib-E Racing</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navWeb">
+            <div class="navLogo">
+                <img src="{% static 'images/logo-capiba-branca.png' %}" alt="logo-capiba">
+            </div>
+            <div class="divMenu">
+                <p class="section">
+                    <a href="#fsae">FSAE</a>
+                </p>
+                <i class="fas fa-circle"></i>
+                <p class="section">
+                    <a href="#time">TIME</a>
+                </p>
+                <i class="fas fa-circle"></i>
+                <p class="section">
+                    <a href="#parceiros">PARCEIROS</a>
+                </p>
+                <i class="fas fa-circle"></i>
+                <p class="section">
+                    <a href="#contato">CONTATO</a>
+                </p>
+            </div>
+            <div class="navSocial">
+                <a href="https://www.linkedin.com/company/capibarib-e-racing/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/capibarib.eracing/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div id="navMobile"></div>
+    </nav>
+</body>
+</html>
