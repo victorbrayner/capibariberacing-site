@@ -81,7 +81,7 @@ body{
     height: 100%;
 }
 .homeLogo img{
-    width: 500px;
+    width: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -89,15 +89,25 @@ body{
 .homeLogo{
     display: flex;
     position: relative;
-    top: 200px;
+    top: 150px;
 }
 .boxHome{
     border-style: dashed;
-    width: 500px;
+    width: 600px;
     margin: auto;
     position: relative;
-    top: 250px;
+    top: 200px;
 }
 .boxHome span{
     font-weight: bold;
+}
+.boxHome p{
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+.fas.fa-square-full{
+    position: absolute;
+    top: 52vh;
+    left: 30vw;
 }
