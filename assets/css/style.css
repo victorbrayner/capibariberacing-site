@@ -24,6 +24,7 @@ body{
     padding: 0;
     z-index: 10;
     background-color: var(--vermelho);
+    position: fixed;
 }
 
 #navWeb{
@@ -81,7 +82,7 @@ body{
     height: 100%;
 }
 .homeLogo img{
-    width: 600px;
+    width: 550px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -89,14 +90,14 @@ body{
 .homeLogo{
     display: flex;
     position: relative;
-    top: 150px;
+    top: 250px;
 }
 .boxHome{
     border-style: dashed;
-    width: 600px;
+    width: 550px;
     margin: auto;
     position: relative;
-    top: 200px;
+    top: 300px;
 }
 .boxHome span{
     font-weight: bold;
@@ -105,9 +106,32 @@ body{
     text-align: center;
     font-size: 1.8rem;
     font-style: italic;
+    line-height: 97%;
 }
 .fas.fa-square-full{
     position: absolute;
     top: 52vh;
     left: 30vw;
+}
+.quadri-top{
+    display: flex;
+    position: absolute;
+    top: 15vh;
+    left: 3vw;
+}
+.quadri-bottom{
+    display: flex;
+    position: absolute;
+    bottom: 5vh;
+    right: 3vw;
+}
+.arrowHome{
+    display: flex;
+    position: relative;
+    top: 50vh;
+}
+.arrowHome img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
