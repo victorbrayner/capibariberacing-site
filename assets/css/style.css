@@ -175,11 +175,11 @@ body{
     height: auto;
 }
 .box-fsae{
-    width: 500px;
+    width: 575px;
     position: absolute;
     display: flex;
-    right: 200px;
-    top: 130vh;
+    right: 150px;
+    top: 128vh;
 }
 .box-fsae p{
     font-size: 1.2rem;
@@ -195,10 +195,11 @@ body{
     position: absolute;
     justify-content: center;
     align-items: center;
-    right: 568px;
+    right: 590px;
     top: 160vh;
 }
-.fsae-buttom p{
+.fsae-buttom a{
+    text-decoration: none;
     color: var(--branco);
     font-weight: bold;
 }
@@ -237,6 +238,49 @@ body{
     position: absolute;
     top: 269vh;
     left: 68px;
+}
+.photo-name{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.photo-name p{
+    text-align: center;
+}
+.name-member{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.role-member{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--vermelho);
+}
+.time-member{
+    color: grey;
+}
+.depoimento{
+    margin-left: 70px;
+    position: absolute;
+    top: 281vh;
+}
+.depoimento img{
+    width: 150px;
+    clip-path: circle(50% at 50% 50%);
+}
+.box-depoimento{
+    border-style: dashed;
+    width: 450px;
+    margin: auto;
+    position: absolute;
+    top: 0vh;
+    left: 14vw;
+    
+}
+.box-depoimento p{
+    margin: 30px;
+    font-size: 1.8rem;
+    font-style: italic;
 }
 
 /* SEÇÃO 4 - PARCEIROS */
@@ -285,6 +329,6 @@ body{
 
 #footer{
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     background-color: var(--vermelho);
 }
