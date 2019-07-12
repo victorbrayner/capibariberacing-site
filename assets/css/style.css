@@ -243,21 +243,24 @@ body{
     width: 150px;
     display: flex;
     flex-direction: column;
-}
-.photo-name p{
     text-align: center;
 }
 .name-member{
     font-weight: bold;
     font-size: 1.4rem;
+    text-align: center;
+    margin: auto;
 }
 .role-member{
     font-weight: bold;
     font-size: 1.4rem;
     color: var(--vermelho);
+    margin: auto;
 }
 .time-member{
     color: grey;
+    font-size: 0.8rem;
+    margin: auto;
 }
 .depoimento{
     margin-left: 70px;
@@ -267,6 +270,7 @@ body{
 .depoimento img{
     width: 150px;
     clip-path: circle(50% at 50% 50%);
+    margin-bottom: 2vh;
 }
 .box-depoimento{
     border-style: dashed;
@@ -319,6 +323,7 @@ body{
     margin-top: 20vh;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .parceiros-linha-1 img, .parceiros-linha-2 img{
     width: 300px;
