@@ -268,3 +268,15 @@ body{
     top: 369vh;
     left: 68px;
 }
+.parceiros-linha-1, .parceiros-linha-2{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.parceiros-linha-1 img, .parceiros-linha-2 img{
+    width: 300px;
+    height: auto;
+}
