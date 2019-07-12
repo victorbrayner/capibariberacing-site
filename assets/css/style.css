@@ -280,3 +280,11 @@ body{
     width: 300px;
     height: auto;
 }
+
+/* SEÇÃO 5 - FOOTER */
+
+#footer{
+    width: 100%;
+    height: 40vh;
+    background-color: var(--vermelho);
+}
