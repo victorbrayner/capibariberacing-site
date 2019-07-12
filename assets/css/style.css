@@ -27,7 +27,7 @@ body{
     position: fixed;
 }
 
-#navWeb{
+#nav-web{
     display: flex;
     align-items: center;
     width: 100%;
@@ -37,29 +37,29 @@ body{
     position: relative;
 }
 
-.navLogo{
+.nav-logo{
     margin-left: 40px;
 }
 
-.navLogo img{
+.nav-logo img{
     width: 40px;
     height: auto;
 }
 
-.divMenu{
+.div-menu{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.divMenu a{
+.div-menu a{
     color: var(--branco);
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
 }
 
-.navSocial{
+.nav-social{
     margin-right: 50px;
 }
 
@@ -81,28 +81,28 @@ body{
     width: 100%;
     height: 100vh;
 }
-.homeLogo img{
+.home-logo img{
     width: 550px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.homeLogo{
+.home-logo{
     display: flex;
     position: relative;
     top: 250px;
 }
-.boxHome{
+.box-home{
     border-style: dashed;
     width: 550px;
     margin: auto;
     position: relative;
     top: 280px;
 }
-.boxHome span{
+.box-home span{
     font-weight: bold;
 }
-.boxHome p{
+.box-home p{
     text-align: center;
     font-size: 1.8rem;
     font-style: italic;
@@ -125,12 +125,12 @@ body{
     bottom: 5vh;
     right: 3vw;
 }
-.arrowHome{
+.arrow-home{
     display: flex;
     position: relative;
     top: 48vh;
 }
-.arrowHome img, .arrowHome a{
+.arrow-home img, .arrow-home a{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -142,11 +142,11 @@ body{
     width: 100%;
     height: 150vh;
 }
-.titleFsae{
+.title-fsae{
     margin-left: 70px;
     margin-top: 12vh;
 }
-.titleFsae p{
+.title-fsae p{
     font-size: 2.5rem;
     font-style: italic;
     font-weight: bold;
@@ -157,7 +157,7 @@ body{
     left: 180px;
     top: 112vh;
 }
-.lineFsae{
+.line-fsae{
     background-color: var(--vermelho);
     width: 240px;
     height: 1px;
@@ -165,26 +165,26 @@ body{
     top: 119vh;
     left: 68px;
 }
-.fsaeLogo{
+.fsae-logo{
     margin-left: 70px;
     margin-top: 90px;
     margin-bottom: 150px;
 }
-.fsaeLogo img{
+.fsae-logo img{
     width: 400px;
     height: auto;
 }
-.boxFsae{
+.box-fsae{
     width: 500px;
     position: absolute;
     display: flex;
     right: 200px;
     top: 130vh;
 }
-.boxFsae p{
+.box-fsae p{
     font-size: 1.2rem;
 }
-.fsaeButtom{
+.fsae-buttom{
     display: flex;
     border-radius: 22px;
     height: 48px;
@@ -198,14 +198,14 @@ body{
     right: 568px;
     top: 160vh;
 }
-.fsaeButtom p{
+.fsae-buttom p{
     color: var(--branco);
     font-weight: bold;
 }
-.imgDrivers img{
+.img-drivers img{
     width: 100%;
 }
-.imgDrivers{
+.img-drivers{
     margin-bottom: 100px;
 }
 
@@ -215,11 +215,11 @@ body{
     width: 100%;
     height: 100vh;
 }
-.titleTime{
+.title-time{
     margin-left: 70px;
     margin-top: 12vh;
 }
-.titleTime p{
+.title-time p{
     font-size: 2.5rem;
     font-style: italic;
     font-weight: bold;
@@ -230,11 +230,41 @@ body{
     left: 180px;
     top: 262vh;
 }
-.lineTime{
+.line-time{
     background-color: var(--vermelho);
     width: 240px;
     height: 1px;
     position: absolute;
     top: 269vh;
+    left: 68px;
+}
+
+/* SEÇÃO 4 - PARCEIROS */
+
+#parceiros{
+    width: 100%;
+    height: 100vh;
+}
+.title-parceiros{
+    margin-left: 70px;
+    margin-top: 12vh;
+}
+.title-parceiros p{
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.quadri-parceiros{
+    display: flex;
+    position: absolute;
+    left: 308px;
+    top: 362vh;
+}
+.line-parceiros{
+    background-color: var(--vermelho);
+    width: 240px;
+    height: 1px;
+    position: absolute;
+    top: 369vh;
     left: 68px;
 }
