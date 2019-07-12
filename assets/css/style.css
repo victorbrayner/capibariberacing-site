@@ -136,26 +136,28 @@ body{
     margin-right: auto;
 }
 
+/* SEÇÃO 2 - FSAE */
+
 #fsae{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
 }
-.divTitle{
+.titleFsae{
     margin-left: 70px;
     margin-top: 12vh;
 }
-.divTitle p{
+.titleFsae p{
     font-size: 2.5rem;
     font-style: italic;
     font-weight: bold;
 }
-.quadri-title{
+.quadri-fsae{
     display: flex;
     position: absolute;
     left: 180px;
     top: 112vh;
 }
-.titleLine{
+.lineFsae{
     background-color: var(--vermelho);
     width: 240px;
     height: 1px;
@@ -205,4 +207,34 @@ body{
 }
 .imgDrivers{
     margin-bottom: 100px;
+}
+
+/* SEÇÃO 3 - TIME */
+
+#time{
+    width: 100%;
+    height: 100vh;
+}
+.titleTime{
+    margin-left: 70px;
+    margin-top: 12vh;
+}
+.titleTime p{
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.quadri-time{
+    display: flex;
+    position: absolute;
+    left: 180px;
+    top: 262vh;
+}
+.lineTime{
+    background-color: var(--vermelho);
+    width: 240px;
+    height: 1px;
+    position: absolute;
+    top: 269vh;
+    left: 68px;
 }
