@@ -90,14 +90,14 @@ body{
 .home-logo{
     display: flex;
     position: relative;
-    top: 250px;
+    top: 38vh;
 }
 .box-home{
     border-style: dashed;
     width: 550px;
     margin: auto;
     position: relative;
-    top: 280px;
+    top: 40vh;
 }
 .box-home span{
     font-weight: bold;
