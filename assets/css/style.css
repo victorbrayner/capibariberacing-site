@@ -286,6 +286,37 @@ body{
     font-size: 1.8rem;
     font-style: italic;
 }
+.box-areas img{
+    width: 100px;
+}
+.areas{
+    position: absolute;
+    top: 281vh;
+    left: 60vw;
+}
+.texto-areas{
+    width: 70%;
+}
+.areas-buttom{
+    display: flex;
+    border-radius: 22px;
+    height: 40px;
+    width: 190px;
+    background-color: var(--vermelho);
+    margin: 0 5px;
+    cursor: pointer;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 250px;
+    
+}
+.areas-buttom a{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
 
 /* SEÇÃO 4 - PARCEIROS */
 
