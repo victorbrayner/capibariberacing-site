@@ -368,3 +368,7 @@ body{
     height: 45vh;
     background-color: var(--vermelho);
 }
+.mapa-footer iframe{
+    display: flex;
+    align-items: center;
+}
